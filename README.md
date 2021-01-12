@@ -1,4 +1,5 @@
 # Corona-screensaver
+
 A covid-19 animated screensaver that will brighten up any website!
 
 You can use it by adding the css link and the JS script link to your website.
@@ -31,3 +32,4 @@ In case you want to change the activation time, you need to add the setTime() fu
   </script>
 </body>
 ```
+![alt text](https://github.com/yossimal95/corona-screensaver/blob/main/coronaScreensaver.png?raw=true)
