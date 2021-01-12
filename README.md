@@ -33,3 +33,6 @@ In case you want to change the activation time, you need to add the setTime() fu
 </body>
 ```
 ![alt text](https://github.com/yossimal95/corona-screensaver/blob/main/coronaScreensaver.png?raw=true)
+
+### Credit: some parts of the coronavirus cartoons are based on:
+https://medium.com/cssclass-com/learning-how-to-create-css-creatures-8318d85d8924
