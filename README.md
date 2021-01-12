@@ -12,7 +12,7 @@ By default the activation time is set to 90 seconds.
 
 # Example:
 
-In the <head> tag on your website add the css link:  
+In the \<head> tag on your website add the css link:  
 ```
 <link rel="stylesheet" href="coronaScreen.css" />
 ```
