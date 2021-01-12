@@ -1,0 +1,137 @@
+.corona-virus {
+  position: absolute;
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #e6005c;
+  animation-name: example;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+[class*="eye"] {
+  position: absolute;
+  top: 25%;
+  width: 20px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.eye1 {
+  left: 25%;
+  transform: rotateZ(15deg);
+}
+.eye2 {
+  right: 25%;
+  transform: rotateZ(-15deg);
+}
+[class*="eye"]::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: #000;
+  border-radius: 50%;
+}
+[class*="hair"] {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -4px;
+}
+[class*="hair"]::before {
+  content: "";
+  display: block;
+  width: 16px;
+  margin-left: -8px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #e6005c;
+}
+[class*="hair"]::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 4px;
+  margin-left: -4px;
+  height: 20px;
+  background-color: #e6005c;
+}
+.hair1 {
+  transform: rotateZ(30deg) translateY(-65px);
+}
+.hair2 {
+  transform: rotateZ(60deg) translateY(-65px);
+}
+.hair3 {
+  transform: rotateZ(90deg) translateY(-65px);
+}
+.hair4 {
+  transform: rotateZ(120deg) translateY(-65px);
+}
+.hair5 {
+  transform: rotateZ(150deg) translateY(-65px);
+}
+.hair6 {
+  transform: rotateZ(180deg) translateY(-65px);
+}
+.hair7 {
+  transform: rotateZ(210deg) translateY(-65px);
+}
+.hair8 {
+  transform: rotateZ(240deg) translateY(-65px);
+}
+.hair9 {
+  transform: rotateZ(270deg) translateY(-65px);
+}
+.hair10 {
+  transform: rotateZ(300deg) translateY(-65px);
+}
+.hair11 {
+  transform: rotateZ(330deg) translateY(-65px);
+}
+.hair12 {
+  transform: rotateZ(360deg) translateY(-65px);
+}
+@keyframes example {
+  from {
+    width: 100px;
+  }
+  to {
+    width: 105px;
+  }
+  from {
+    height: 100px;
+  }
+  to {
+    height: 105px;
+  }
+}
+
+.eye1::before {
+  left: 10%;
+  animation: eyeMove 1s linear 0s infinite alternate;
+}
+.eye2::before {
+  left: 10%;
+  animation: eyeMove 1s linear -0.5s infinite alternate;
+}
+@keyframes eyeMove {
+  0% {
+    transform: translateX(76%) translateY(10%);
+  }
+  20% {
+    transform: translateX(50%) translateY(0%);
+  }
+  50% {
+    transform: translateX(56%) translateY(30%);
+  }
+  70% {
+    transform: translateX(50%) translateY(0%);
+  }
+}
