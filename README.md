@@ -32,6 +32,7 @@ In case you want to change the activation time, you need to add the setTime() fu
   </script>
 </body>
 ```
+#### DEMO: https://yossimal95.github.io/corona-screensaver.yossimal95.github.io/ (wait 10 seconds after page load..).
 ![alt text](https://github.com/yossimal95/corona-screensaver/blob/main/coronaScreensaver.png?raw=true)
 
 ### Credit: the coronavirus cartoons are based on:
