@@ -53,7 +53,7 @@ var x = setInterval(function () {
   if (count >= time) {
     count = 0;
     if (i == 0) {
-      clearInterval(x);
+      //clearInterval(x);
       myLoop();
     }
   }
